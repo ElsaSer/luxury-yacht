@@ -18,8 +18,27 @@
         </p>
       </div>
     </div>
-    <div>
-        <!-- here is gonna come the picture for all screens -->
+
+    <div class="about-images-position">
+      <picture>
+        <source
+          srcset="./images/about-desk.jpg 1x, ./images/about-deskx2.jpg 2x"
+          media="(min-width: 1158px)"
+        />
+        <source
+          srcset="./images/about-tab.jpg 1x, ./images/about-tabx2.jpg 2x"
+          media="(min-width: 756px)"
+        />
+        <source
+          srcset="./images/about-mob.jpg 1x, ./images/about-mobx2.jpg 2x"
+          media="(max-width:756px)"
+        />
+        <img
+          class="about-us-image"
+          src="./images/about-mob.jpg"
+          alt="A yacht on the sea"
+        />
+      </picture>
     </div>
   </div>
 </section>
