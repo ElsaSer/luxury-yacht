@@ -5,18 +5,25 @@
     <div class="form-container">
       <h2 class="form-title">Rent a yacht now</h2>
       <form class="rent-form">
-        <input class="input-form" type="text" placeholder="Full Name" />
+        <input
+          class="input-form"
+          type="text"
+          placeholder="Full Name"
+          id="user-name"
+        />
         <input
           class="input-form"
           type="email"
           pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           placeholder="Email"
+          id="user-email"
         />
         <input
           class="input-form"
           type="tel"
           pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
           placeholder="Phone number"
+          id="user-phone"
         />
         <textarea
           class="form-comment"

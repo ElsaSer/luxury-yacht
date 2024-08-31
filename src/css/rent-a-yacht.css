@@ -37,6 +37,10 @@ min-height:288px;
     line-height: 14px;
            
 }
+.input-form:hover, .input-form:active {
+    border: 1px solid #FBFBFB80;
+    color:#FBFBFB;
+}
 .form-comment {
 width: 335px;
     height: 108px;
@@ -67,6 +71,10 @@ width: 335px;
         border-radius: 15px;
         border:none;
         padding: 15px;
+}
+.form-btn:hover, .form-btn:focus {
+    color:#1B414B;
+    background-color: #FBFBFB;
 }
 .yacht-pic {
     margin-top: 80px;
