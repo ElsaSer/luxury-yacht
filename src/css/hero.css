@@ -27,7 +27,7 @@
 .hero-container {
   max-width: 335px;
   margin: 0 auto;
-  padding: 260px 0 302px 0;
+  padding: 260px 20px 302px 20px;
 }
 
 .hero-title {
