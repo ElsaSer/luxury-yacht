@@ -1,0 +1,211 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+.advantages-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+  }
+
+.container-advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.advantages-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    max-width: 335px;
+    border-radius: 24px;
+    background: #1b414b;
+    padding: 80px 20px;
+    margin-bottom: 20px;
+}
+
+.advantages-title-list {
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    padding-bottom: 18px;
+    border-bottom: 2px solid rgba(251, 251, 251, 0.1);
+    width: 100%;
+}
+
+.advantages-text {
+    margin-top: 18px;
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    opacity: 0.8;
+}
+
+.advantages-images {
+    border-radius: 24px;
+    max-width: 335px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+.advantages-section {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 150px;
+}
+
+.container-advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 32px;
+    row-gap: 44px;
+    max-width: 704px;
+    border-radius: 24px;
+    background: #1b414b;
+    padding: 90px 32px;
+    margin-bottom: 32px;
+}
+
+.advantages-list-item {
+    width: calc((100% - 32px) / 2);
+}
+
+.advantages-title-list {
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    padding-bottom: 18px;
+    border-bottom: 2px solid rgba(251, 251, 251, 0.1);
+}
+
+.advantages-text {
+    margin-top: 18px;
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    opacity: 0.8;
+}
+
+.advantages-images {
+    width: 704px;
+    border-radius: 24px;
+}
+}
+
+@media screen and (min-width: 1280px) {}
+.advantages-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.container-advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.advantages-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 44px;
+    width: 718px;
+    border-radius: 24px;
+    background: #1b414b;
+    padding: 90px 50px;
+}
+
+.advantages-list-item {
+    width: calc((100% - 44px) / 2);
+}
+
+.advantages-title-list {
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    padding-bottom: 18px;
+    border-bottom: 2px solid rgba(251, 251, 251, 0.1);
+}
+
+.advantages-text {
+    margin-top: 18px;
+    color: #fbfbfb;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    opacity: 0.8;
+}
+
+.advantages-images{
+    border-radius: 24px;
+}
