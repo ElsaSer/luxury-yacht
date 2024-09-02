@@ -101,12 +101,8 @@
   }
 
   .hero-container {
-    width: Hug (704px) px;
-    height: Hug (400px) px;
-    top: 280px;
-    left: 32px;
-    gap: 48px;
-    opacity: 0px;
+    max-width: 704px;
+    padding: 280px 0 282px 0;
   }
   .hero-container-text {
     width: Hug (704px) px;
@@ -134,13 +130,6 @@
     padding: 16px 40px;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    width: Hug (179px) px;
-    height: Hug (52px) px;
-    padding: 16px 40px 16px 40px;
-    gap: 10px;
-    border-radius: 15px 0px 0px 0px;
-    opacity: 0px;
   }
 
   .hero-link:hover,
@@ -174,12 +163,8 @@
   }
 
   .hero-container {
-    width: Hug (1, 001px) px;
-    height: Hug (350px) px;
-    top: 235px;
-    left: 140px;
-    gap: 48px;
-    opacity: 0px;
+    max-width: 1001px;
+    padding: 235px 0 215px 0;
   }
   .hero-container-text {
     width: Hug (1, 001px) px;
@@ -189,14 +174,6 @@
   }
   .hero-title {
     font-size: 80px;
-  }
-  .hero-link {
-    width: Hug (179px) px;
-    height: Hug (52px) px;
-    padding: 16px 40px 16px 40px;
-    gap: 10px;
-    border-radius: 15px 0px 0px 0px;
-    opacity: 0px;
   }
 }
 
