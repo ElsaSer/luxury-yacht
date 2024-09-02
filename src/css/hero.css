@@ -1,3 +1,19 @@
+.container-hr{
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container-hr .hero-container{
+  padding: 260px 20px 302px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(linear-gradient(rgba(17, 19, 31, 0.39), rgba(17, 19, 31, 0)), url(../images/heroimage.jpg));
+
+}
+
 .hero-section {
   background-image: linear-gradient(
       359deg,
@@ -12,7 +28,7 @@
   background-color: #0e1823;
 }
 
-@media (min-resolution: 192dpi) {
+/* @media (min-resolution: 192dpi) {
   .hero-section {
     background-image: linear-gradient(
         359deg,
@@ -22,27 +38,25 @@
       ),
       url(../images/heroimage2x.jpg);
   }
-}
+} */
 
 .hero-container {
   max-width: 335px;
   margin: 0 auto;
   padding: 260px 20px 302px 20px;
 }
-.hero-container-text {
-  width: Hug (335px) px;
-  height: Hug (166px) px;
-  gap: 24px;
-  opacity: 0px;
-}
+
+
 .hero-title {
+  max-width: 335px;
   font-size: 32px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   text-align: center;
   margin-bottom: 24px;
+  margin: 0 auto;
 }
 
 .hero-text {
@@ -52,6 +66,8 @@
   line-height: 1.17;
   color: rgba(251, 251, 251, 0.7);
   margin-bottom: 38px;
+  margin: 0 auto;
+  max-width: 335px;
 }
 
 .hero-link {
@@ -69,16 +85,24 @@
   cursor: pointer;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none
 }
 
-.hero-link:active {
+/* .hero-link:active {
   background: #fbfbfb;
   color: #1b414b;
-}
+} */
+
+.hero-link:hover,
+  .hero-link:focus {
+    background: #fbfbfb;
+    color: #1b414b;
+  }
+
 
 /* (768px) */
 @media screen and (min-width: 768px) {
-  .hero-section {
+  .hero-container .container-hr {
     background-image: linear-gradient(
         359deg,
         rgba(17, 19, 31, 0.8) 42.62%,
@@ -86,6 +110,7 @@
         rgba(17, 19, 31, 0) 99.94%
       ),
       url(../images/heroimage1x.jpg);
+      padding: 280px 32px 282px;
   }
 
   @media (min-resolution: 192dpi) {
@@ -98,13 +123,41 @@
         ),
         url(../images/heroimage2x.jpg);
     }
+    .hero-title{
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 24px;
+      max-width: 704px;
+      font-size: 70px;
+      letter-spacing: -0.02em;
+      line-height: 1;
+
+    }
+
+    .hero-text{
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.4;
+      max-width: 598px;
+      margin: 0 auto;
+      margin-bottom: 48px;
+    }
+
+    .hero-link{
+      font-size: 18px;
+      line-height: 1.1;
+      padding: 16px 40px;
+      min-width: 179px;
+      height: 52px;
+    }
   }
 
-  .hero-container {
+  /* .hero-container {
     max-width: 704px;
     padding: 280px 0 282px 0;
-  }
-  .hero-container-text {
+  } */
+
+  /* .hero-container-text {
     width: Hug (704px) px;
     height: Hug (300px) px;
     gap: 24px;
@@ -112,9 +165,9 @@
   }
   .hero-title {
     font-size: 70px;
-  }
+  } */
 
-  .hero-text {
+  /* .hero-text {
     font-size: 16px;
     line-height: 1.4;
     margin-left: auto;
@@ -130,6 +183,71 @@
     padding: 16px 40px;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  } */
+
+  .hero-link:hover,
+  .hero-link:focus {
+    background: #fbfbfb;
+    color: #1b414b;
+  }
+}
+
+
+/* ( 1280px) */
+@media screen and (min-width: 1280px) {
+  .container-hr{
+    max-width: 1280px;
+    padding: 0 50px;
+  }
+  
+  .hero-container .container-hr{
+    padding: 235px 140px 215px;
+    background-image: linear-gradient(
+      359deg,
+      rgba(17, 19, 31, 0.8) 42.62%,
+      rgba(17, 19, 31, 0.31) 84.12%,
+      rgba(17, 19, 31, 0) 99.94%
+    ),
+    url(../images/heroimage1x.jpg);
+  }
+  
+
+  @media (min-resolution: 192dpi) {
+    
+    
+    .hero-container .container-hr{
+      background-image: linear-gradient(
+          359deg,
+          rgba(17, 19, 31, 0.8) 42.62%,
+          rgba(17, 19, 31, 0.31) 84.12%,
+          rgba(17, 19, 31, 0) 99.94%
+        ),
+        url(../images/heroimage2x.jpg);
+    }
+  }
+
+  /* .hero-container {
+    max-width: 1001px;
+    padding: 235px 0 215px 0;
+  } */
+  /* .hero-container-text {
+    width: Hug (1, 001px) px;
+    height: Hug (250px) px;
+    gap: 24px;
+    opacity: 0px;
+  } */
+  .hero-title {
+    font-size: 80px;
+    max-width: 1001px;
+    margin-bottom: 24px;
+  }
+
+  .hero-text{
+    max-width: 578px;
+  }
+
+  .hero-link{
+    line-height: 1.1;
   }
 
   .hero-link:hover,
@@ -138,66 +256,4 @@
     color: #1b414b;
   }
 }
-/* ( 1280px) */
-@media screen and (min-width: 1280px) {
-  .hero-section {
-    background-image: linear-gradient(
-        359deg,
-        rgba(17, 19, 31, 0.8) 42.62%,
-        rgba(17, 19, 31, 0.31) 84.12%,
-        rgba(17, 19, 31, 0) 99.94%
-      ),
-      url(../images/heroimage1x.jpg);
-  }
 
-  @media (min-resolution: 192dpi) {
-    .hero-section {
-      background-image: linear-gradient(
-          359deg,
-          rgba(17, 19, 31, 0.8) 42.62%,
-          rgba(17, 19, 31, 0.31) 84.12%,
-          rgba(17, 19, 31, 0) 99.94%
-        ),
-        url(../images/heroimage2x.jpg);
-    }
-  }
-
-  .hero-container {
-    max-width: 1001px;
-    padding: 235px 0 215px 0;
-  }
-  .hero-container-text {
-    width: Hug (1, 001px) px;
-    height: Hug (250px) px;
-    gap: 24px;
-    opacity: 0px;
-  }
-  .hero-title {
-    font-size: 80px;
-  }
-}
-
-/*  ( 1440px) */
-@media screen and (min-width: 1440px) {
-  .hero-section {
-    background-image: linear-gradient(
-        359deg,
-        rgba(17, 19, 31, 0.8) 42.62%,
-        rgba(17, 19, 31, 0.31) 84.12%,
-        rgba(17, 19, 31, 0) 99.94%
-      ),
-      url(../images/heroimage1x.jpg);
-  }
-
-  @media (min-resolution: 192dpi) {
-    .hero-section {
-      background-image: linear-gradient(
-          359deg,
-          rgba(17, 19, 31, 0.8) 42.62%,
-          rgba(17, 19, 31, 0.31) 84.12%,
-          rgba(17, 19, 31, 0) 99.94%
-        ),
-        url(../images/heroimage2x.jpg);
-    }
-  }
-}
