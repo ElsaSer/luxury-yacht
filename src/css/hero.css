@@ -22,60 +22,58 @@
       ),
       url(../images/heroimage2x.jpg);
   }
+}
 
-  .hero-container {
-    max-width: 335px;
-    margin: 0 auto;
-    padding: 260px 20px 302px 20px;
-  }
+.hero-container {
+  max-width: 335px;
+  margin: 0 auto;
+  padding: 260px 20px 302px 20px;
+}
+.hero-container-text {
+  width: Hug (335px) px;
+  height: Hug (166px) px;
+  gap: 24px;
+  opacity: 0px;
+}
+.hero-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  text-align: center;
+  margin-bottom: 24px;
+}
 
-  .hero-title {
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    color: #fbfbfb;
-    text-align: center;
-    margin-bottom: 24px;
+.hero-text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.17;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 38px;
+}
 
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-align: center;
-  }
+.hero-link {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  width: 141px;
+  color: #fbfbfb;
+  padding: 14px 32px;
+  border-radius: 15px;
+  background: #1b414b;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  .hero-text {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 1.17;
-    color: rgba(251, 251, 251, 0.7);
-    margin-bottom: 38px;
-  }
-
-  .hero-link {
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    width: 141px;
-    color: #fbfbfb;
-    padding: 14px 32px;
-    border-radius: 15px;
-    background: #1b414b;
-    margin: 0 auto;
-    cursor: pointer;
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .hero-link:active {
-    background: #fbfbfb;
-    color: #1b414b;
-  }
+.hero-link:active {
+  background: #fbfbfb;
+  color: #1b414b;
 }
 
 /* (768px) */
