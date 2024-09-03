@@ -208,6 +208,7 @@ color: white;
 .container-our-yachts {
         width: 1440px;
         height: 781px;
+        padding-left:50px;
     }
 .our-yachts {
     padding-left: 70px;
