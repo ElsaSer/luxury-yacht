@@ -208,7 +208,9 @@ color: white;
         width: 1440px;
         height: 781px;
     }
-
+.our-yachts {
+    padding-left: 70px;
+}
     .our-yachts-title{
         width: 714px;
             height: 96px;
@@ -244,7 +246,7 @@ color: white;
     }
 
     .type-yacht{
-margin-left: 70px;
+ /* margin-left: 70px;  */
     }
 
     .our-yachts-button{
